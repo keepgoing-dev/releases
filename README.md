@@ -5,7 +5,7 @@
   <a href="https://www.npmjs.com/package/@keepgoingdev/cli"><img src="https://img.shields.io/npm/v/@keepgoingdev/cli?style=flat-square&label=cli&color=00B4D8" alt="cli"></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=keepgoing-dev.keepgoing"><img src="https://img.shields.io/visual-studio-marketplace/v/keepgoing-dev.keepgoing?style=flat-square&label=vscode&color=00B4D8" alt="vscode"></a>
   <a href="https://plugins.jetbrains.com/plugin/30449-keepgoing"><img src="https://img.shields.io/jetbrains/plugin/v/30449?style=flat-square&label=jetbrains&color=00B4D8" alt="jetbrains"></a>
-  <a href="https://github.com/keepgoing-dev/releases/releases/latest"><img src="https://img.shields.io/badge/desktop--tray-v1.2.0-00B4D8?style=flat-square" alt="desktop-tray"></a>
+  <a href="https://github.com/keepgoing-dev/releases/releases/latest"><img src="https://img.shields.io/github/v/release/keepgoing-dev/releases?style=flat-square&label=desktop-tray&color=00B4D8" alt="desktop-tray"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D20-00B4D8?style=flat-square" alt="node"></a>
   <a href="https://github.com/keepgoing-dev/community"><img src="https://img.shields.io/badge/community-issues%20%26%20discussions-00B4D8?style=flat-square" alt="community"></a>
 </p>
@@ -25,7 +25,13 @@ Head to the [Releases](https://github.com/keepgoing-dev/releases/releases) page 
 
 System tray companion that surfaces re-entry briefings from the menubar. Works with any editor.
 
-**Install:** Download the `.dmg` from the [latest release](https://github.com/keepgoing-dev/releases/releases/latest).
+**Install via Homebrew (recommended):**
+
+```bash
+brew install --cask keepgoing-dev/tap/keepgoing-tray
+```
+
+**Manual install:** Download the `.dmg` from the [latest release](https://github.com/keepgoing-dev/releases/releases/latest).
 
 > **macOS Gatekeeper:** This app is not code-signed. On first launch, right-click the app and select "Open" to bypass Gatekeeper.
 
